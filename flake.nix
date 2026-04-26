@@ -1,10 +1,8 @@
 {
   description = "flake templates";
 
-  inputs = { };
-
   outputs =
-    { self, nixpkgs }:
+    { ... }:
     {
       templates = {
         default = {
